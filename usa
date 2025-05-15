@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Histoire Économique des USA</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Rubik', sans-serif;
+      margin: 0;
+      background: linear-gradient(to right, #e0eafc, #cfdef3);
+      color: #333;
+    }
+
+    header {
+      background: #0d47a1;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: 2rem auto;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    section:hover {
+      transform: scale(1.02);
+    }
+
+    h2 {
+      color: #0d47a1;
+      border-left: 5px solid #1976d2;
+      padding-left: 0.5rem;
+    }
+
+    .highlight {
+      color: #d32f2f;
+      font-weight: bold;
+    }
+
+    .number {
+      color: #2e7d32;
+      font-weight: bold;
+    }
+
+    ul {
+      margin-top: 0.5rem;
+      padding-left: 1.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #0d47a1;
+      color: white;
+      margin-top: 2rem;
+      font-size: 0.95rem;
+    }
+
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 0.8s ease-out forwards;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="fade-in">
+    <h1>Présentation : Histoire économique des États-Unis & Donald Trump</h1>
+  </header>
+
+  <section class="fade-in">
+    <h2>1. De l'indépendance à l'industrialisation</h2>
+    <p>Les États-Unis deviennent indépendants en <span class="number">1783</span>, grâce à des figures comme <span class="highlight">La Fayette</span>. Rapidement, l'économie s'appuie sur l'<strong>agriculture</strong>, puis sur l'<strong>industrie</strong> au XIXe siècle. Le chemin de fer, le charbon, et les usines attirent des millions d'immigrants.</p>
+  </section>
+
+  <section class="fade-in">
+    <h2>2. La Grande Dépression et le New Deal</h2>
+    <p>En <span class="number">1929</span>, une crise financière plonge les USA dans une profonde récession. Le président <span class="highlight">Roosevelt</span> réagit avec le <strong>New Deal</strong> : grands travaux, aides sociales, et soutien à l'économie.</p>
+  </section>
+
+  <section class="fade-in">
+    <h2>3. L'âge d'or américain</h2>
+    <p>Après <span class="number">1945</span>, les USA dominent l'économie mondiale. Mais à partir des années 70, ils font face à des difficultés : hausse des prix du pétrole, chômage, et concurrence étrangère (ex: <strong>Japon</strong>).</p>
+  </section>
+
+  <section class="fade-in">
+    <h2>4. Mondialisation et inégalités</h2>
+    <p>Dans les années 80, <span class="highlight">Reagan</span> mise sur la dérégulation, la baisse d’impôts et l'ouverture des marchés. Cela crée de la richesse, mais aussi de fortes <strong>inégalités</strong> et des délocalisations.</p>
+  </section>
+
+  <section class="fade-in">
+    <h2>5. Crise de 2008 et relance d'Obama</h2>
+    <p>En <span class="number">2008</span>, la crise financière liée aux banques provoque une récession mondiale. <span class="highlight">Obama</span> relance l’économie avec des plans d’aides massifs.</p>
+  </section>
+
+  <section class="fade-in">
+    <h2>6. Donald Trump (2017-2021)</h2>
+    <p>
+      <span class="highlight">Trump</span> lance une politique "<strong>America First</strong>". Il :
+      <ul>
+        <li>Réduit les impôts pour les entreprises et particuliers.</li>
+        <li>Relance le <strong>protectionnisme</strong> : hausse des taxes sur les produits chinois.</li>
+        <li>Renégocie les accords commerciaux (ex : ALENA avec Canada & Mexique).</li>
+      </ul>
+      <p>Résultats en <span class="number">2019</span> :</p>
+      <ul>
+        <li><strong>Taux de chômage :</strong> <span class="number">3,5%</span> (un des plus bas de l'histoire récente)</li>
+        <li><strong>Croissance :</strong> environ <span class="number">3%</span></li>
+      </ul>
+      <p>Mais en <span class="number">2020</span>, le <strong>Covid-19</strong> fait chuter l’économie (jusqu'à <span class="number">14%</span> de chômage).</p>
+    </p>
+  </section>
+
+  <section class="fade-in">
+    <h2>7. Défis futurs</h2>
+    <p>Les USA doivent relever plusieurs défis :</p>
+    <ul>
+      <li>Investir dans l’<strong>IA</strong> et les technologies de demain</li>
+      <li>Protéger l’<strong>environnement</strong></li>
+      <li>Réduire les <strong>inégalités sociales</strong></li>
+      <li>Trouver un équilibre entre mondialisation et protection des travailleurs</li>
+    </ul>
+  </section>
+
+  <footer class="fade-in">
+    Présentation réalisée par Nathan Gamet | Terminale Bac Pro LCQ | Mai 2025
+  </footer>
+
+  <script>
+    // Animation au scroll
+    const faders = document.querySelectorAll('.fade-in');
+
+    const appearOptions = {
+      threshold: 0.2,
+      rootMargin: "0px 0px -50px 0px"
+    };
+
+    const appearOnScroll = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (!entry.isIntersect
